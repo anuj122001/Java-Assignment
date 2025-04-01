@@ -42,7 +42,8 @@ class BankAccount {
     }
 }
 
-class UnsafeTransaction extends Thread {
+class UnsafeTransaction extends Thread 
+{
     private BankAccount bankAccount;
     private int withdrawalAmount;
     private String user;
